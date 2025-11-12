@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const metadata = {
   title: 'Zappit',
-  description: 'Minimal skeleton for learning Next.js and Tailwind CSS',
+  description: 'Zappit by Imad',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
