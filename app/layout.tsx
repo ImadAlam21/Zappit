@@ -5,6 +5,7 @@ import Link from 'next/link'
 export const metadata = {
   title: 'Zappit',
   description: 'Zappit by Imad',
+  viewport: 'width=device-width, initial-scale=1',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
