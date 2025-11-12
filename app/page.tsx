@@ -35,7 +35,7 @@ export default function HomePage() {
           {/* Store Badges */}
           <div className="mt-4 text-center">
             <p className="text-white mb-5 font-medium">App Available For</p>
-            <div className="flex gap-3 justify-center">
+            <div className="flex gap-3 justify-center z-10">
               <a href="https://play.google.com" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg"
@@ -70,7 +70,7 @@ export default function HomePage() {
           </div>
 
           {/* CENTER PHONE */}
-          <div className="absolute bottom-[-30px] md:bottom-[-40px] md:top-[90%] z-10">
+          <div className="absolute bottom-[-30px] md:bottom-[-40px] md:top-[90%]">
             <div className="relative">
               <img
                 src="/images/phone-center.PNG"
