@@ -55,7 +55,7 @@ export default function TrustedBrands() {
                     </div>
                 </div>
                 <div className="text-white space-y-12">
-                    <img src="/images/logo-image.png" alt="Appit Logo" className="mx-auto h-24 mt-96" />
+                    <img src="/images/logo-image.png" alt="Zappit Logo" className="mx-auto h-24 mt-96" />
                     <p className="mt-12 text-4xl font-bold italic text-center">Empowering authentic connections for a vibrant social experience.</p>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-y-8 text-center max-w-2xl mx-auto sm:divide-x sm:divide-white/20">
                         <div className="px-6">
@@ -70,7 +70,7 @@ export default function TrustedBrands() {
 
                         <div className="px-6">
                             <p className="text-5xl font-extrabold">50<span className="text-4xl">+</span></p>
-                            <p className="mt-1 text-lg font-light">Countries where Appit is growing strong</p>
+                            <p className="mt-1 text-lg font-light">Countries where Zappit is growing strong</p>
                         </div>
                     </div>
 
