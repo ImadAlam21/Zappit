@@ -24,17 +24,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
             {/* Center Navigation ||/#is full link so that i can navigate to it from waitlist page too.|| */}
             <div className="hidden md:flex gap-10 text-gray-200 text-lg font-medium">
-              <Link href="/#benefits" className="hover:text-white transition">Benefits</Link>
-              <Link href="/#features" className="hover:text-white transition">Features</Link>
-              <Link href="/#pricing" className="hover:text-white transition">Pricing</Link>
-              <Link href="/#testimonials" className="hover:text-white transition">Testimonials</Link>
-              <Link href="/#faq" className="hover:text-white transition">FAQ’s</Link>
+              <Link href="/#benefits" className="hover:text-red-600 transition">Benefits</Link>
+              <Link href="/#features" className="hover:text-red-600 transition">Features</Link>
+              <Link href="/#pricing" className="hover:text-red-600 transition">Pricing</Link>
+              <Link href="/#testimonials" className="hover:text-red-600 transition">Testimonials</Link>
+              <Link href="/#faq" className="hover:text-red-600 transition">FAQ’s</Link>
             </div>
 
             {/* Right Button */}
             <a
               href="/waitlist"
-              className="px-4 py-2 bg-white text-black rounded-lg text-base font-semibold hover:bg-gray-200 transition cursor-pointer"
+              className="px-4 py-2 bg-white text-black rounded-lg text-base font-semibold hover:text-red-600 transition cursor-pointer"
             >
               Join Waitlist
             </a>
