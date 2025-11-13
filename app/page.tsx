@@ -205,7 +205,7 @@ export default function HomePage() {
           </div>
           <div className="flex-shrink-0 flex items-center justify-center z-10">
             <img
-              src="/images/phone-benefit.png"
+              src="/images/phone-benefit.PNG"
               alt="Zappit Phone"
               className="h-[450px] w-auto mx-auto shadow-2xl rounded-[40px] border border-black"
             />
