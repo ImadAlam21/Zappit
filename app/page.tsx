@@ -56,7 +56,8 @@ export default function HomePage() {
 
           {/* Store Badges */}
           <motion.div
-            className="mt-4 text-center"
+            className="mt-4 text-center relative"
+             style={{ willChange: "transform", zIndex: 20 }}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
@@ -89,7 +90,7 @@ export default function HomePage() {
           transition={{ delay: 0.5, duration: 0.8 }}
         >
           {/* LEFT PHONE */}
-          <div className="absolute left-[-180px] md:left-[100px] top-[55%] md:top-[58%]">
+          <div className="absolute left-[-180px] md:left-[100px] top-[55%] md:top-[58%] z-0">
             <div className="relative">
               <img
                 src="/images/phone-left.PNG"
@@ -102,7 +103,7 @@ export default function HomePage() {
           </div>
 
           {/* CENTER PHONE */}
-          <div className="absolute bottom-[-30px] md:bottom-[-40px] md:top-[90%]">
+          <div className="absolute bottom-[-30px] md:bottom-[-40px] md:top-[90%]" style={{ zIndex: 9 }}>
             <div className="relative">
               <img
                 src="/images/phone-center.PNG"
@@ -114,7 +115,7 @@ export default function HomePage() {
           </div>
 
           {/* RIGHT PHONE */}
-          <div className="absolute right-[-180px] md:right-[100px] top-[55%] md:top-[58%]">
+          <div className="absolute right-[-180px] md:right-[100px] top-[55%] md:top-[58%] z-0">
             <div className="relative">
               <img
                 src="/images/phone-right.PNG"
@@ -204,7 +205,7 @@ export default function HomePage() {
           </div>
           <div className="flex-shrink-0 flex items-center justify-center z-10">
             <img
-              src="/images/phone-benefit.PNG"
+              src="/images/phone-benefit.png"
               alt="Zappit Phone"
               className="h-[450px] w-auto mx-auto shadow-2xl rounded-[40px] border border-black"
             />
